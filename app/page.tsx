@@ -20,6 +20,7 @@ export default async function Home() {
       
       <div className="mt-20 max-w-4xl text-center">
         <p className="mt-4 text-gray-600">
+          Welcome {user?.firstName}!
           Getting started with Task Manager is super easy!
         </p>
        
